@@ -1,8 +1,8 @@
 {
-  "name": "my-gulp-project",
+  "name": "gulp-project-it-incubator",
   "version": "1.0.0",
-  "description": "my-gulp-project",
-  "author": "Andrey Nikitin",
+  "description": "gulp-project-it-incubator",
+  "author": "Andrey Nikitin and it-incubator",
   "devDependencies": {
     "browser-sync": "^2.26.14",
     "del": "^6.0.0",
