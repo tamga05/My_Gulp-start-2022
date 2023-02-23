@@ -66,7 +66,7 @@ const jsFiles = [
 
 // Таска для Создания Сайта на gh-pages и "Деплоя" на этот сайт моего проекта.
 gulp.task('deploy', function() {
-    return gulp.src('./build/**/*')
+    return gulp.src('./dist/**/*')
         .pipe(ghPages());
 });
 
@@ -284,7 +284,7 @@ exports.default = watch;
 
 // 6. !!!!! Для Деплоя готового проекта на GitHub-pages РАСКОММЕНТИРОВАТЬ (если она закомментирована) строку 24 ЭТОГО файла Gulpfile.js, затем в консоли ввести сначала команду npm install --save-dev gulp-gh-pages после её отработки ввести команду gulp deploy   !!!!!
 
-// 7. !!!!!!!!!! После того, как Деплой без ошибок завершён, в консоли VSCode написать и поочерёдно запустить 3 команды: git add . и git commit -m"deploy" и git push !!!!!!!!!!
+// 7. !!!!!!!!!! После того, как Деплой без ошибок завершён, в консоли написать и поочерёдно запустить 3 команды: git add . и git commit -m"deploy" и git push !!!!!!!!!!
 
 
 
