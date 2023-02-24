@@ -98,10 +98,7 @@ abbr[title] {
     border-bottom: none;
  /* 1 */
     text-decoration: underline;
- /* 2 */
-    -webkit-text-decoration: underline dotted;
-    text-decoration: underline dotted;
- /* 2 */
+  /* 2 */
 }
 
 /**
@@ -361,6 +358,6 @@ p {
     font-size: 150px;
     font-weight: bold;
     text-shadow: 2px 2px 5px;
-    padding: 200px 400px 0px;
+    padding: 200px 400px 0;
     text-align: center;
 }
